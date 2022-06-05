@@ -4,11 +4,15 @@
   "description": "notas de f-scienza",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html Typescript/index.html"
   },
   "author": "f-scienza",
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.3"
   }
 }
