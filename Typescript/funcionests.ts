@@ -30,6 +30,7 @@ function fullname2(fname:string, lname?:string):string{
 const cufa = fullname2('cufa')
 console.log(cufa)
 // la funcion no devuelve error porque lname no es obligatorio
+// pero devuelve lname como undefined
 // y si quisieramos valor por defecto
 function fullname3(fname:string, lname:string = 'scienza'){
     return `${fname} ${lname}`
